@@ -1,0 +1,33 @@
+/* PHASE 5: Cats */
+.img-div {
+  height: 200px;
+  overflow: hidden;
+  width: 900px;
+  position: relative;
+  z-index: 10;
+  border-bottom: 1px solid #ccc;
+  background-image: url(../Shared/cats.jpg);
+  background-size: 900px;
+}
+
+.profile-name {
+  position: absolute;
+  color: white;
+  z-index: 11;
+  float:left;
+  margin-top: 150px;
+  margin-left: 250px;
+  font-size: 36px;
+  text-shadow: 1px 1px black;
+}
+
+.add-friend {
+  position: absolute;
+  padding: 20px;
+  background-color: white;
+  right:10px;
+  font-size: 20px;
+  margin-top: 130px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
